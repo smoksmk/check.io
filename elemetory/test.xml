@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<import>
+
+   <users>
+
+      <user>
+
+         <accounts>
+
+            <account>
+
+               <id>1</id>
+
+               <balance>650</balance>
+
+               <vat_rate>0.18</vat_rate>
+
+               <int_status>1</int_status>
+
+            </account>
+
+         </accounts>
+
+         <id>11</id>
+
+         <login>ivanov</login>
+
+         <password>aipsw123</password>
+
+         <full_name>Иванов</full_name>
+
+         <is_juridical>0</is_juridical>
+
+         <groups>
+
+            <group>
+
+               <group_id>2</group_id>
+
+            </group>
+
+         </groups>
+
+      </user>
+
+   </users>
+
+   <zones>
+
+      <zone>
+
+         <id>1</id>
+
+         <name>Россия</name>
+
+         <zone_type>2</zone_type>
+
+         <directions>
+
+            <direction>
+
+               <id>1</id>
+
+            </direction>
+
+         </directions>
+
+      </zone>
+
+   </zones>
+
+   <directions>
+
+      <direction>
+
+         <id>1</id>
+
+         <name>Москва</name>
+
+         <called_prefix>^749(5|9)[0-9]{7}$</called_prefix>
+
+         <called_prefix_regexp>1</called_prefix_regexp>
+
+      </direction>
+
+   </directions>
+
+</import>
